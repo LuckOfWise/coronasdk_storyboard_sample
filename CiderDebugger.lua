@@ -1,4 +1,4 @@
-local CiderRunMode = {};CiderRunMode.runmode = true;CiderRunMode.sdk = "Corona";CiderRunMode.assertImage = true;CiderRunMode.userdir = "/Users/luckofwise/Library/Application Support/LuaGlider/dev";local CORONA_SOCKET_PORT=51248;local SOCKET_PORT=51249;local GLIDER_MAIN_FOLDER= "/Users/luckofwise/Development/10Corona/workspace/StoryboardSample";local useNativePrint= false;
+local CiderRunMode = {};CiderRunMode.sdk = "Corona";CiderRunMode.assertImage = true;CiderRunMode.userdir = "/Users/luckofwise/Library/Application Support/LuaGlider/dev";local CORONA_SOCKET_PORT=51248;local SOCKET_PORT=51249;local GLIDER_MAIN_FOLDER= "/Users/luckofwise/Development/10Corona/workspace/StoryboardSample";local useNativePrint= false;
 --v1.69
 -----------------------------------------------------------------------------------------
 --

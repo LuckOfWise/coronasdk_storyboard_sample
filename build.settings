@@ -2,18 +2,18 @@
 -- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
 
 settings = {
-	
-	orientation = {
-		default = "portrait",
-		supported = { "portrait", }
-	},
-	
-	iphone = {
-		plist = {
-			UIStatusBarHidden = false,
-			UIPrerenderedIcon = true, -- set to false for "shine" overlay
-			--UIApplicationExitsOnSuspend = true, -- uncomment to quit app on suspend
-
+  
+  orientation = {
+    default = "portrait",
+    supported = { "portrait", }
+  },
+  
+  iphone = {
+    plist = {
+      UIStatusBarHidden = false,
+      UIPrerenderedIcon = true, -- set to false for "shine" overlay
+      --UIApplicationExitsOnSuspend = true, -- uncomment to quit app on suspend
+      
             --[[
             -- iOS app URL schemes:
             CFBundleURLTypes =
@@ -26,16 +26,15 @@ settings = {
                     }
                 }
             }
-            --]]
-		}
-	},
-	
-	--[[
-	-- Android permissions
-
-	androidPermissions = {
-  		"android.permission.INTERNET",
-  	},
-
-	]]--
+      --]]
+    }
+  },
+  
+  -- Android permissions
+  androidPermissions =
+  {
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE"
+  },
+  
 }
